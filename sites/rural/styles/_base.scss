@@ -1,0 +1,46 @@
+.cover {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../assets/cover_1.jpg");
+}
+
+.cover:before {
+  content: '';
+  background: #000;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.cover-tagline {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.cover-tagline span {
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 30px;
+  opacity: .6;
+}
+
+.cover-tagline h1 {
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cover-tagline h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  font-style: italic;
+  opacity: .5;
+}

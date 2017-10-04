@@ -2323,6 +2323,18 @@
   overflow: visible;
   clip: auto; }
 
+@media (max-width: 576px) {
+  nav > .container {
+    margin-left: 0;
+    margin-right: 0; } }
+/*
+@include media-breakpoint-down(xs) {
+  .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+*/
 html {
   font-size: 14px; }
 

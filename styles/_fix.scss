@@ -1,0 +1,22 @@
+// fix a problem with the navbar toggler button when it is
+// inisde a containerr in small rersolutions
+// see: https://github.com/twbs/bootstrap/issues/21605
+// see: https://github.com/twbs/bootstrap/issues/21590
+
+// with css
+@media (max-width: 576px) {
+  nav > .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+
+// with scss and bootstrap mixin (needs bootstrap to be imported locally)
+/*
+@include media-breakpoint-down(xs) {
+  .container {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
+*/
