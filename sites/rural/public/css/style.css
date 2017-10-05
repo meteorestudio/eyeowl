@@ -6755,4 +6755,18 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-style: italic;
   opacity: .5; }
 
+.section-1 h2 {
+  font-size: 2.5rem; }
+
+.section-1 .quote {
+  font-size: 1.8rem;
+  font-style: italic; }
+
+.section-1 a {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif; }
+
+.section-1 img {
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
